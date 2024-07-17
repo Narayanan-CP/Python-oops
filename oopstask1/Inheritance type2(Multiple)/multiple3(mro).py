@@ -13,4 +13,6 @@ class Child(Relative,Parent):
         
         
 child1=Child()
-child1.Common()                        
+child1.Common()
+#if we want to use it by class name means we want to pass the object name as an argument.    
+Parent.Sing(child1)                    
