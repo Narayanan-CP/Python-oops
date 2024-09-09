@@ -1,4 +1,5 @@
 # _ => means protected.
+#protected class can be accessed using the sub class only
 class School:
     def __init__(self):
         self.name="narayanan"
